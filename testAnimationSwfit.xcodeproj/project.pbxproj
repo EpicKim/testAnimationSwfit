@@ -12,6 +12,8 @@
 		425165041C36541800D5227F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425165021C36541800D5227F /* Main.storyboard */; };
 		425165061C36541800D5227F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425165051C36541800D5227F /* Assets.xcassets */; };
 		425165091C36541800D5227F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425165071C36541800D5227F /* LaunchScreen.storyboard */; };
+		425165111C36544200D5227F /* KWAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425165101C36544200D5227F /* KWAnimationView.swift */; };
+		428DF2231C391991005A3430 /* KWCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428DF2221C391991005A3430 /* KWCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		425165051C36541800D5227F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		425165081C36541800D5227F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4251650A1C36541800D5227F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425165101C36544200D5227F /* KWAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWAnimationView.swift; sourceTree = "<group>"; };
+		428DF2221C391991005A3430 /* KWCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				425165051C36541800D5227F /* Assets.xcassets */,
 				425165071C36541800D5227F /* LaunchScreen.storyboard */,
 				4251650A1C36541800D5227F /* Info.plist */,
+				425165101C36544200D5227F /* KWAnimationView.swift */,
+				428DF2221C391991005A3430 /* KWCircleView.swift */,
 			);
 			path = testAnimationSwfit;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				428DF2231C391991005A3430 /* KWCircleView.swift in Sources */,
+				425165111C36544200D5227F /* KWAnimationView.swift in Sources */,
 				425165011C36541800D5227F /* ViewController.swift in Sources */,
 				425164FF1C36541800D5227F /* AppDelegate.swift in Sources */,
 			);
@@ -284,6 +292,7 @@
 				4251650F1C36541800D5227F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
